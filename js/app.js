@@ -68,3 +68,6 @@ Player.prototype.move = function(token) {
       setTimeout(function(){game.reset()}, 300);
   }
 };
+
+
+//HI anna!!
