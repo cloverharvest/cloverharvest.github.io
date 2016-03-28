@@ -63,7 +63,7 @@ Player.prototype.move = function(token) {
 
       $('#racer1').stop();
       $('#racer2').stop();
-      alert("Race Winner: " + (token === 1) ? "Racer " + token + " wins! You reached Marin safely!" : "Racer " + token + " wins! Your reached Marin safely!");
+      alert("Race Winner: " + (token === 1) ? "Racer " + token + " wins this round! You reached Marin safely!" : "Racer " + token + " wins this round! Your reached Marin safely!");
 
       setTimeout(function(){game.reset()}, 300);
   }
